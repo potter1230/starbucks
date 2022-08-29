@@ -18,11 +18,12 @@ a{
     text-decoration: none;
     box-sizing: border-box;
 }
-input{
+form, input{
     outline: none;
     background: #fff;
     box-sizing: border-box;
 }
+input[type="submit"]{cursor: pointer;}
 .inner{
     max-width:1200px;
     margin: auto;
